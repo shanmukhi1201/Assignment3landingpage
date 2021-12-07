@@ -1,0 +1,58 @@
+.bgimage{
+    background-image: url(https://res.cloudinary.com/spacejoy/image/upload/fl_lossy,q_auto/c_scale,w_1500/v1618402877/server/designs/render/6076de3c564b96002362b34f.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+}
+.bgcolor{
+    background-color: rgba(0,0,0,0.5);
+    height: 100vh;
+}
+.box{
+    float: left;
+    font-size: larger;
+    color: white;
+
+}
+li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 35px;
+
+}
+a:hover{
+    text-decoration: underline;
+    text-decoration-color: darkcyan;
+    text-decoration-thickness: 5px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+p{
+    font-size: 15px;
+    text-align: center;
+    color: white;
+}
+button:hover{
+     background-color: darkcyan;
+}
+button{
+    border-radius:15px;
+    transition-duration: 1s;
+    border-color: darkcyan;
+    background-color: transparent;
+    background: linear-gradient(to right,darkcyan 100% );
+    color: white;
+    }
+h1{
+    color: white;
+    text-align: center;
+}
+.button{
+   text-align: center;
+}
+.group{
+    float: right;
+}
